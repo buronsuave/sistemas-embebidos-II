@@ -21,7 +21,7 @@ void loop()
 {
   if (myBT.available() > 0)
   {
-    Serial.println("Im here");++
+    Serial.println("Im here");
     char code = myBT.read();
     if (code == 'R')
     {
